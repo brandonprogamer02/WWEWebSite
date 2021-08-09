@@ -1,0 +1,39 @@
+footer{
+   display:flex;
+   justify-content: space-between;
+   background-color: #222222;
+   color: white;
+}
+footer .c1{
+   width: 50%;
+   /* border: 2px solid black; */
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+}
+footer .c1 img {
+   width: 30px;
+}
+footer .c1 > div{
+
+   margin: 0px 10px;  
+}
+/* footer .c1 label{
+   margin: 0px 10px;  
+
+} */
+footer .c2{
+   display: flex;
+   /* flex-wrap: wrap; */
+   /* border: 2px solid black; */
+   width: 50%;
+}
+footer .c2 > div{
+   display: flex;
+   align-items: center;
+}
+
+footer .c2 img {
+   display: block;
+   width: 50px;
+}

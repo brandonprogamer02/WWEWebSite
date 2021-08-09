@@ -1,0 +1,42 @@
+
+
+.container-votacion{
+   background-color: #F3F3F3;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* margin: auto; */
+   height: 60%;
+   width: 60%;
+   padding: 2px;  
+}
+
+.container-votacion h4{
+   width:100%;
+}
+
+
+.container-votacion > div > div {
+   margin: 30px;
+}  
+
+.container-problemas{
+   display: flex;
+   align-items: center;
+}
+
+.container-problemas > form{
+   display: flex;
+   align-items: center;
+   padding: 30px;
+   color: white;
+   justify-content: center;
+   background-color: #0150B8;
+}
+.container-problemas > form > div{ 
+   margin: 20px;
+   /* display: flex;
+   align-items: center;
+   flex-direction: column;
+   align-items: center; */
+}

@@ -1,0 +1,18 @@
+
+
+
+.f{
+   color: white;
+}
+h3{
+   font-weight: bolder;
+}
+
+.y{
+   border-bottom: 0.5px solid rgb(187, 187, 187);
+   background-color: #093DB5;
+   /* height: 400px; */
+   display: flex;
+   align-items: center;
+   padding: 20px 0px;
+}

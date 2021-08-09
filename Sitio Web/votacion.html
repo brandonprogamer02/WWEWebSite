@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+   <link rel="stylesheet" href="./css/main.css">
+   <link rel="stylesheet" href="./css/votacion.css">
+</head>
+
+<body>
+   <div class="container-fluid">
+      <div class="row">
+         <div class="col-12">
+            <header>
+               <div class='h'>
+                  <button class="hamburger">&#9776;</button>
+                  <button class="cross">&#735;</button>
+                  <img src="./imagenes/logo_wwe.png" alt="logo" width="60px">
+               </div>
+               <div class="menu">
+                  <ul>
+                     <a href="/shows.html">
+                        <li>Shows</li>
+                     </a>
+                     <a href="/super_estrellas.html">
+                        <li>Super Estrellas</li>
+                     </a>
+                     <a href="/eventos_proximos.html">
+                        <li>Eventos Proximos</li>
+                     </a>
+                     <a href="/votacion.html">
+                        <li>Votacion</li>
+                     </a>
+                  </ul>
+               </div>
+            </header>
+         </div>
+      </div>
+      <section class="row">
+         <div class="col-12">
+         </div>
+         <div class='col-12 col-lg-7  d-flex align-items-center justify-content-center' style="height: 98vh;" >
+            <form class='container-votacion '>
+               <div>
+                  <h4 class='m-3'>Vota por tu luchador favorito</h4>
+                  <div>
+                     <label >Nombre</label>
+                     <input id='nombre' type="text">
+                  </div>
+                  <div>
+                     <label>Apellido</label>
+                     <input id='apellido' type="text">
+                  </div>
+                  <div>
+                     <label>Edad</label>
+                     <input id='edad' type="number">
+                  </div>
+                  <div>
+                     <label>Luchador Favorito</label>
+                     <input id="luchador" type="text">
+                  </div>
+                  <div>
+                     <label>Pais</label>
+                     <input id='pais' type="text">
+                  </div>
+                  <button class=''>Enviar</button>
+               </div>
+            </form>
+         </div>
+         <div class='col-12 col-lg-4 container-problemas'>
+            <form class='d-flex flex-column align-items-start'>
+               <h3>Has Tenido Algun Incoveniente en Nuestro Sitio Web?</h3>
+               <div>
+                  <label>Tu nombre</label>
+                  <input id='nombre' type="text">
+               </div>
+               <div>
+                  <label>Describenos tu situacion</label>
+                  <textarea id="descripcion"></textarea>
+               </div>
+               <div>
+                  <label>Correo</label>
+                  <input id="correo" type="text">
+               </div>
+               <div>
+                  <label>Lugar donde sucedio el problema</label>
+                  <input id='sitio' type="text">
+               </div>
+               <div>
+                  <label>Gravedad del problema</label>
+                  <div>
+                     <label>muy grave</label>
+                     <input id='radio-muy_gravedad' type="radio" name="gravedad">
+                  </div>
+                  <div>
+                     <label>grave</label>
+                     <input id='radio-grave' type="radio" name="gravedad">
+                  </div>
+                  <div>
+                     <label>leve</label>
+                     <input id='radio-leve' type="radio" name="gravedad">
+                  </div>
+               </div>
+               <button>Enviars</button>
+            </form>
+         </div>
+      </section>
+      <footer class='border'>
+         <div class='c1'>
+            <label>Redes Sociales</label>
+            <div>
+               <img src="./imagenes/redes_sociales/facebook.png" alt="facebook">
+               <img src="./imagenes/redes_sociales/instagram.png" alt="instagram">
+               <img src="./imagenes/redes_sociales/twitter.png" alt="twitter">
+               <img src="./imagenes/redes_sociales/youtube.png" alt="youtube">
+            </div>        
+         </div>
+         <div class='c2'>
+            <div>
+               <img src="./imagenes/logo_wwe.png" alt="logo wwe"> 
+            </div>
+            <span>Copyright © 2021 WWE LLC. Todos los derechos reservados. El nombre y el logo de WWE son marcas registradas</span>
+         </div>
+      </footer>
+   </div>
+   <script src="./js/jQuery.js"></script>
+   <script type="module" src="./js/main.js"></script>
+   <script type="module" src="./js/validaciones.js"></script>
+</body>
+
+</html>
